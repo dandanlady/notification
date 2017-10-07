@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>notification</title>
+</head>
+<body>
+    <button onclick="show()">显示桌面通知</button>
+</body>
+<script src="../notification.js"></script>
+<script type="application/javascript">
+    function show(){
+        var options={
+            popup:true,//是否支持弹窗
+            popup_option:{//弹窗参数
+                title:'标题',
+                body:'内容',
+                icon:'',
+            },
+
+            titleBlink:true,//是否支持document.title闪烁提示
+            titleBlink_option:{
+                title:'标题',
+                rate:300,//以毫秒为单位的数值，闪烁时间间隔
+            },
+
+            sound:true,//是否支持声音提示
+            sound_option:{
+                src:'',//声音文件地址
+            },
+        };
+        notification.showNotify(options)
+    }
+</script>
+</html>

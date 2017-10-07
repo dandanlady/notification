@@ -1,0 +1,26 @@
+{
+  "name": "notification",
+  "version": "1.0.0",
+  "description": " A simple, light desktop notification plugin which has no dependencies",
+  "main": "notification.js",
+  "dependencies": {
+    "bower": "^1.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandanlady/notification.git"
+  },
+  "keywords": [
+    "notification"
+  ],
+  "author": "dandan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dandanlady/notification/issues"
+  },
+  "homepage": "https://github.com/dandanlady/notification#readme"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "notification",
+  "homepage": "https://github.com/dandanlady/notification",
+  "authors": [
+    "dandan <dandan@turingcat.com>"
+  ],
+  "description": "A simple, light desktop notification plugin which has no dependencies",
+  "main": "notification.js",
+  "keywords": [
+    "notification",
+    "notify",
+    "poptitle"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
