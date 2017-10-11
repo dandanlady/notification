@@ -36,7 +36,7 @@
   
 ## Parameter details
 
- > popup: 
+ > popup: </br>
   >> true //Support desktop pop-up prompts 支持桌面弹窗提示</br>
   >> false //doesn't support  desktop pop-up prompts 不支持桌面弹窗提示</br>
   
@@ -45,15 +45,15 @@
   >> body:string //弹窗内容</br>
   >> icon：string //图片路径</br>
    
- > titleBlink:
+ > titleBlink:</br>
   >> true //Support title flash 支持document.title闪烁</br>
   >> false //doesn't support title flash 不支持document.title闪烁</br>
   
  > titleBlink_option(it will work if titleBlink==true):</br>
-           >> title:string //document.title标题</br>
-           >> rate:number //以毫秒为单位的数值，闪烁时间间隔</br>
+   >> title:string //document.title标题</br>
+   >> rate:number //以毫秒为单位的数值，闪烁时间间隔</br>
 
- > sound:
+ > sound:</br>
   >> true //Support voice prompts 支持声音提示</br>
   >> false //doesn't support voice prompts 不支持声音提示</br>
   
