@@ -63,12 +63,11 @@
     function popup(options,callback){
         var self=this;
         if (window.Notification) {
-            //var button = document.getElementById('button'), text = document.getElementById('text');
 
             var title = options.title || '标题',
-                body = options.body || '内容',
-                myAddress = options.myAddress || '',//图片icon地址
-                href=options.href;
+                body = options.body || '内容';
+                //myAddress = options.myAddress || '',//图片icon地址
+                //href=options.href;
 
             var popNotice = function() {
                 if (Notification.permission == "granted") {
@@ -76,7 +75,6 @@
                         body: body,
                         icon: options.icon,
                         silent:true,
-                        //:myAddress+'/images/notify.mp3',
                         noscreen:false,
                     });
 
@@ -88,7 +86,6 @@
                         }
                         if(document.hidden){
                             window.focus();
-                            // window.open(href);
                             console.log(window.location.href);
                         }else{
                             //window.location.href=href;
