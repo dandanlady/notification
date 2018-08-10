@@ -1,5 +1,5 @@
 {
-  "name": "js-window-notification",
+  "name": "notification",
   "version": "1.0.0",
   "description": " A simple, light desktop notification plugin which has no dependencies",
   "main": "notification.js",
